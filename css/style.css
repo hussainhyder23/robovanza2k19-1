@@ -17,6 +17,19 @@
 .hero-unit-btn{
   font-family: batma;
 }
+
+#register_button{
+  line-height: 20px;
+  position: relative;
+  top: 120px;
+}
+
+#oc_button{
+  line-height: 20px;
+  position: relative;
+  padding: 10px;
+}
+
 #loadingg {
 
    width: 100%;
@@ -41,6 +54,8 @@ margin-left: -50px;
   top: 50%;
   left: 50%;
 }
+
+
 
 /*FOR LOGOS TANANANA*/
 .image1{
@@ -370,6 +385,16 @@ padding-bottom:00px;
     font-size: 20px;
 
   }
+
+  #register_button{
+    line-height: 20px;
+    position: relative;
+    top: 120px;
+    font-size: 13px;
+  }
+
+  
+
 }
 
 .article-font{
@@ -428,6 +453,22 @@ h4{
   margin: 20px;
   padding: 20px;
 }
+
+.sponser-card{
+  box-shadow: 0 1px 4px rgba(0,0,0,.04);
+  border-width: 3px;
+  /* border-style: solid; */
+  /* border-image: 
+    linear-gradient(
+ #c0495c , #434a99
+    ) 1 100%; */
+  background-color: transparent;
+  /* width: 355px; */
+  /* height: 450px; */
+  margin: 20px;
+  padding: 20px;
+}
+
 
 
 /* #himamsu{
@@ -535,4 +576,20 @@ h4{
   width: 200px;
   border-radius: 500px;
 
+}
+
+.sponser-image{
+  height: 200px;
+  /* width: 400px; */
+
+}
+
+.cfr-image{
+  height: 200px;
+}
+
+@media(max-width: 746px){
+  .cfr-image{
+    height: 100px;
+  }
 }
